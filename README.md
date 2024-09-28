@@ -1,6 +1,6 @@
 # Intern-Task
-Employee Management Dashboard
-Overview
+Employee Management Dashboard 
+Overview : 
 This project is a simple Employee Management Dashboard built with React for the frontend and Node.js/Express.js for the backend. It allows users to:
 
 View employee data in the form of cards.
