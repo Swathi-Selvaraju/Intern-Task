@@ -1,0 +1,25 @@
+/* EmployeeList.css */
+.dashboard-heading {
+  text-align: center; /* Center the text */
+  font-size: 2.5rem; /* Increase font size */
+  color: #333; /* Dark color for the heading */
+  margin-bottom: 20px; /* Space between heading and cards */
+  font-weight: bold; /* Bold font */
+}
+
+.employee-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .employee-list {
+    grid-template-columns: 1fr;
+  }
+}

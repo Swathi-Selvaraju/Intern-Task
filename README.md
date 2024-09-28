@@ -1,100 +1,70 @@
-# Intern-Task
-Employee Management Dashboard 
-Overview : 
-This project is a simple Employee Management Dashboard built with React for the frontend and Node.js/Express.js for the backend. It allows users to:
+# Getting Started with Create React App
 
-View employee data in the form of cards.
-Edit employee details via a modal form.
-Perform CRUD operations on the employee data (Create, Read, Update, Delete).
-Features
-List of Employee Cards:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Displays employee data like name, email, and job description in a card layout.
-Each employee is represented on an individual card.
-Edit Employee Information:
+## Available Scripts
 
-Users can edit an employee's information by clicking the "Edit" button on the card, which opens a modal form.
-Once edited, the changes will be reflected in the list.
-CRUD Operations:
+In the project directory, you can run:
 
-Create: Add new employees through API requests.
-Read: Fetch and display employee data from a backend API.
-Update: Edit employee details.
-Delete: Remove an employee from the list.
-Project Structure
-Frontend (React)
-Components:
-EmployeeList.js: Displays all employee cards.
-EditEmployeeModal.js: A modal component to edit employee details.
-State Management:
-Managed using React's useState and useEffect hooks to handle employee data and modals.
-API Fetching:
-Fetches employee data from the backend at http://localhost:4000/employees.
-Backend (Node.js/Express)
-Endpoints:
-GET /employees: Fetch all employees.
-POST /employees: Add a new employee.
-PUT /employees/:id: Update employee details.
-DELETE /employees/:id: Remove an employee by ID.
-Technologies Used
-Frontend:
+### `npm start`
 
-React (Hooks: useState, useEffect)
-HTML, CSS, JavaScript (No React UI Framework)
-Backend:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Node.js
-Express.js
-Body-parser (For parsing JSON requests)
-CORS (Cross-Origin Resource Sharing)
-Setup Instructions
-Prerequisites:
-Node.js installed on your system.
-Git installed.
-Postman (optional for API testing).
-Frontend Setup (React)
-Clone the repository:
-bash
-Copy code
-git clone https://Swathi-Selvaraju/Intern-Task.git
-Navigate to the project folder:
-bash
-Copy code
-cd Intern-Task
-Install dependencies:
-bash
-Copy code
-npm install
-Run the React app:
-bash
-Copy code
-npm start
-Open the app in your browser at http://localhost:3000.
-Backend Setup (Node.js/Express)
-In a separate terminal, navigate to the backend folder:
-bash
-Copy code
-cd backend
-Install backend dependencies:
-bash
-Copy code
-npm install
-Run the backend server:
-bash
-Copy code
-node server.js
-The server will start at http://localhost:4000.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-Future Improvements
-Add form validation for employee inputs.
-Implement user authentication.
-Add a search/filter feature to search employees by name or job role.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Contributing
-Feel free to contribute to the project by creating a pull request. Any suggestions or improvements are welcome!
+### `npm run build`
 
-Author
-Swathi S
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

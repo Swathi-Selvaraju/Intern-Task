@@ -1,0 +1,59 @@
+/* EmployeeCard.css */
+.employee-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Make card height 100% of its container */
+  text-align: center; /* Center text */
+}
+
+/* Set a fixed height for uniformity */
+.employee-card {
+  width: 250px; /* Fixed width for all cards */
+  height: 350px; /* Fixed height for all cards */
+}
+
+.employee-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.employee-card h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.employee-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.employee-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  margin-top: auto; /* Pushes the button to the bottom of the card */
+}
+
+.employee-card button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .employee-card {
+    width: 100%; /* Make the card full width on smaller screens */
+    height: auto; /* Allow height to be flexible on mobile */
+  }
+}
